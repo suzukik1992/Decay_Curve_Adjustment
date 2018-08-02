@@ -1,8 +1,8 @@
 {
-	"name" : "nodeLiner",
+	"name" : "Decay_Curve_Adjustment",
 	"version" : 1,
-	"creationdate" : -678875717,
-	"modificationdate" : -678875714,
+	"creationdate" : 2082877077,
+	"modificationdate" : -678865491,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"nodeLiner.maxpat" : 			{
+			"Decay_Curve_Adjustment.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1

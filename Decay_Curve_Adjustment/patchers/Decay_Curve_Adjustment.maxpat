@@ -9,13 +9,13 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 614.0, 322.0, 399.0, 283.0 ],
+		"rect" : [ 614.0, 322.0, 265.0, 172.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"gridonopen" : 2,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
@@ -38,53 +38,13 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 334.082825, 336.666687, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.082825, 372.000031, 90.0, 22.0 ],
-					"style" : "",
-					"text" : "zoomfactor 1.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 334.082825, 406.000031, 69.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-					"style" : "",
-					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.082825, 143.977905, 51.917175, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.082825, 133.977905, 51.917175, 20.0 ],
+					"presentation_rect" : [ 133.749496, 125.311234, 51.917175, 20.0 ],
 					"style" : "",
 					"text" : "Range"
 				}
@@ -98,7 +58,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 381.082825, 143.977905, 38.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.082825, 100.977905, 38.0, 20.0 ],
+					"presentation_rect" : [ 133.749496, 92.311234, 38.0, 20.0 ],
 					"style" : "",
 					"text" : "Exp"
 				}
@@ -112,7 +72,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.082825, 143.977905, 38.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.082825, 68.96666, 38.0, 20.0 ],
+					"presentation_rect" : [ 133.749496, 60.299995, 38.0, 20.0 ],
 					"style" : "",
 					"text" : "Size"
 				}
@@ -127,7 +87,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 302.0, 22.0, 244.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.999984, 14.0, 244.0, 29.0 ],
+					"presentation_rect" : [ 6.666649, 5.333336, 244.0, 29.0 ],
 					"style" : "",
 					"text" : "\bDecay Curve Adjustment",
 					"underline" : 1
@@ -264,7 +224,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 329.082825, 143.977905, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 99.977905, 50.0, 22.0 ],
+					"presentation_rect" : [ 187.666672, 91.311241, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -295,7 +255,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 438.082825, 143.977905, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 132.977905, 50.0, 22.0 ],
+					"presentation_rect" : [ 187.666672, 124.311234, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -326,7 +286,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 220.082825, 143.977905, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 68.96666, 50.0, 22.0 ],
+					"presentation_rect" : [ 187.666672, 60.299995, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -369,19 +329,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.550438, 302.977936, 108.182922, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.999984, 55.96666, 108.182922, 111.0 ]
+					"presentation_rect" : [ 11.666649, 47.299995, 108.182922, 111.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-283", 0 ],
 					"midpoints" : [ 112.050438, 430.811249, 77.249496, 430.811249, 77.249496, 28.977905, 229.582825, 28.977905 ],
@@ -540,17 +493,10 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "js_nodeLiner.js",
-				"bootpath" : "~/Documents/Max 7/Library/patch/nodeLiner/code",
+				"bootpath" : "~/Documents/Max 7/Library/patch/nodeLiner/Decay_Curve_Adjustment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
